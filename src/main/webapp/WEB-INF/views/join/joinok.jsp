@@ -67,10 +67,18 @@
     <hr class="hrnone">
 
     <!-- 회원가입 완료 버튼-->
-    <div class="text-center">
-        <button type="button" id="compljoin" class="btn btn-success">
-            메인 페이지로 이동</button>
-        <hr>
+    <div class="row text-center">
+        <div class="col">
+            <button type="button" id="compljoin" class="btn btn-success">
+                메인 페이지로 이동</button>
+            <hr>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-primary" onclick="location.href='http://localhost:8080/Park/list'">
+                관심주차장 추가하러 가기
+            </button>
+            <hr>
+        </div>
     </div>
 
 </div>

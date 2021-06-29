@@ -351,7 +351,7 @@
             '<div className="iwTitle" style="font-size: 22px; text-align: center; height: 65px; line-height: 65px; border-bottom: 1px solid black">' +
             '<a href="https://map.kakao.com/link/search/' + '${p.name}주차장' + '" target="_blank">' + '${p.name}' + '</a>' +
             '</div>' +
-            '<div className="addfav" style="height: 48px; text-align: center; line-height: 48px"><a href="#">관심지역추가</a></div>' +
+            '<div className="addfav" style="height: 48px; text-align: center; line-height: 48px"><a href="#">관심주차장추가</a></div>' +
             '</div>',
         removable: true
     }))
