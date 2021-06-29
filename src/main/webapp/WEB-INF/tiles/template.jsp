@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/css/review.css" />
 
     <title>템플릿 title</title>
+
 </head>
 <body>
     <div class="container">
@@ -93,7 +94,6 @@
     <script src="/js/loginout.js"></script>
     <script src="/js/myinfo.js"></script>
     <script src="/js/board.js"></script>
-    <script src="/js/Park.js"></script>
     <script src="/js/QnA.js"></script>
     <script src="/js/review.js"></script>
 
