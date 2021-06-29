@@ -94,6 +94,8 @@
     <script src="/js/loginout.js"></script>
     <script src="/js/myinfo.js"></script>
     <script src="/js/board.js"></script>
+    <!-- template에 적으면 안됌! -->
+<%--    <script src="/js/Park.js"></script>--%>
     <script src="/js/QnA.js"></script>
     <script src="/js/review.js"></script>
 

@@ -333,6 +333,9 @@
         </c:forEach>
     </div>
 </div>
+
+<!-- template에 적으면 안됌! -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
 <script src="/js/Park.js"></script>
 <script>
     var markers = []; var infowindows = [];
