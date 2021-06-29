@@ -4,7 +4,7 @@
 <header class="row">
     <!-- 로고 이미지 -->
     <div class="col">
-        <img src="/img/logo.png" alt="로고 이미지입니다." onclick="location.href='http://localhost:8080/'"/>
+        <img src="/img/logo.png" alt="로고 이미지입니다." id="logo" onclick="location.href='http://localhost:8080/'"/>
     </div>
 
     <!-- 로그인 / 로그아웃 버튼 !!! 후에 섹션 개체 생성 필요 -->
@@ -26,9 +26,8 @@
 <!-- 네비게이션 바 -->
 <nav class="navbar navbar-expand navbar-dark bg-primary">
     <ul class="navbar-nav nav-fill w-100">
-        <li class="nav-item"><a class="nav-link" href="/notice">공지사항</a></li>
+        <li class="nav-item"><a class="nav-link" href="/notice">서비스소개</a></li>
         <c:if test="${empty UID}"><li class="nav-item"><a class="nav-link" href="/join/agree">회원가입</a></li></c:if>
-        <c:if test="${not empty UID}"><li class="nav-item"><a class="nav-link disabled" href="/join/agree">회원가입</a></li></c:if>
         <li class="nav-item"><a class="nav-link" href="/board/list?cp=1">커뮤니티</a></li>
         <li class="nav-item"><a class="nav-link" href="/Park/list">주차장찾기</a></li>
         <li class="nav-item"><a class="nav-link" href="/review/list">리뷰</a></li>

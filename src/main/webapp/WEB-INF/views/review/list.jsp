@@ -104,7 +104,7 @@
 
                     <c:forEach var="rv" items="${rvs}">
                     <tr class="result">
-                        <td>${snum}</td>
+                        <td>${rv.rvno}</td>
                         <td class="locf">${rv.loc}</td>
                         <td><a class="lcol"
                                href="/review/view?rvno=${rv.rvno}">${rv.title}</a></td>
