@@ -69,15 +69,6 @@
                 </textarea>
             </div> <!-- contents -->
 
-            <!-- google maps -->
-            <%--            <div class="form-group row">--%>
-            <%--                <label for="map" class="col-form-label col-2 text-right">--%>
-            <%--                    위치--%>
-            <%--                </label>--%>
-            <%--                <div id="map"></div>--%>
-
-            <%--            </div> <!-- location tag -->--%>
-
             <!-- attachments -->
             <div class="form-group row">
                 <label for="file1" class="col-form-label col-2 text-right">

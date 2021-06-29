@@ -7,18 +7,6 @@
         <img src="/img/logo.png" alt="로고 이미지입니다." />
     </div>
 
-    <!-- 검색 박스 -->
-    <div class="col m-3">
-        <div class="input-group">
-            <div class="form-outline">
-                <input type="search" class="form-control" placeholder="빠른 주차장 찾기"/>
-            </div>
-            <button type="button" class="btn btn-primary">
-                <i class="fas fa-search"></i>검색
-            </button>
-        </div>
-    </div>
-
     <!-- 로그인 / 로그아웃 버튼 !!! 후에 섹션 개체 생성 필요 -->
     <div class="col text-right m-3">
         <c:if test="${empty UID}">
