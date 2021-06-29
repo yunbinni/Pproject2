@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/css/notice.css" />
     <link rel="stylesheet" href="/css/review.css" />
 
-    <title>템플릿 title</title>
+    <title>더조은주차장</title>
 
 </head>
 <body>
