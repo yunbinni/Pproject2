@@ -1,7 +1,6 @@
 $('#newQnAbtn').on('click', function () {
-    alert('로그인 후 이용가능합니다.');
+    location.href = "/QNA/write";
 });
-
 
 // search board
 $('#findbtn').on('click', function(){
@@ -16,10 +15,23 @@ $('#findbtn').on('click', function(){
 
 $('#newFAQbtn').on('click', function () {
     location.href = '/FAQ/FAQlist';
-
-
 });
 
 $('#newQnAPagebtn').on('click', function () {
     location.href = '/QNA/QnAlist';
 });
+
+$("#savebdbbtn").on('click', function() {
+    if ($('#title').val() == '') {
+        alert('제목을 입력하세요!');
+    } else if ($('#contents').val() == '') {
+        alert('본문을 입력하세요!');
+    } else if (grecaptcha.getResponse() == '') {
+        alert('자동기입 방지 확인 필요!')
+    } else {
+        const frm = $('#boardfrm');
+        frm.attr('action', '/QNA/write');
+        frm.attr('method', 'post');
+        frm.submit();
+    }
+})

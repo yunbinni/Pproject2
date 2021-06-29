@@ -59,4 +59,8 @@
             where title like concat(#{fkey}, '%') or
             contents like concat(#{fkey}, '%') </if>
     </select>
+
+    <select id="selectOne" statementType="PREPARED" parameterType="String" resultType="ybc.spring.mvc.vo.QnA">
+        select * from QnA where qno = #{qno};
+    </select>
 </mapper>

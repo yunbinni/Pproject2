@@ -42,25 +42,8 @@ http://localhost:8080/board/find?findtype=title&findkey=빅데이터&cp=1 이 �
     </div>
 </div>
 <div class= "QnApushdwn1">
-    <div class="row ">
-        <div class="col-5 offset-1">
-            <div class="form-group row">
-                <select class="form-control col-3 border-primary "
-                        name="findtype" id="findtype">
-                    <option value="title">제목</option>
-                    <option value="titcont">제목+내용</option>
-                    <option value="userid">작성자</option>
-                    <option value="contents">내용</option>
-                </select>&nbsp;
-                <input type="text" name="findkey" id="findkey"
-                       class="form-control col-4 border-primary"
-                       value="${param.findkey}">&nbsp;
-                <button type="button" id="findbtn"
-                        class="btn btn-primary">
-                    <i class="fas fa-search"></i> 검색</button>
-            </div>
-        </div>
-        <div class="col-5 text-right">
+    <div class="row">
+        <div class="col d-flex justify-content-end">
             <button type="button" class="btn btn-light" id="newQnAbtn">
                 <i class="fas fa-plus-circle"></i>새글쓰기</button>
         </div>
@@ -95,8 +78,8 @@ http://localhost:8080/board/find?findtype=title&findkey=빅데이터&cp=1 이 �
             <!-- QnAs : 여러 게시물 수 , 그중에 하나의 게시물(QnA) -->
             <c:forEach var="QnA" items="${QnAs}">
                 <tr>
-                    <td>${snum}</td>
-                    <td>${QnA.title }</td>
+                    <td>${QnA.qno}</td>
+                    <td><a href="/QNA/view?qno=${QnA.qno}">${QnA.title}</a></td>
                     <td>${QnA.userid}</td>
                     <td>${fn:substring(QnA.regdate,0,10)}</td>
                     <td>${QnA.thumbup}</td>
@@ -129,8 +112,6 @@ http://localhost:8080/board/find?findtype=title&findkey=빅데이터&cp=1 이 �
                         <li class="page-item active">
                             <a href="${pglink}${i}" class="page-link">${i}</a></li>
                     </c:if>
-
-
 
                     <c:if test="${i ne cp}">
                         <li class="page-item">

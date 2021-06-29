@@ -3,8 +3,10 @@ package ybc.spring.mvc.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 import ybc.spring.mvc.service.QnAService;
+import ybc.spring.mvc.vo.QnA;
 
 @Controller
 public class QnAController {
@@ -39,5 +41,21 @@ public class QnAController {
         return mv;
     }
 
+    @GetMapping("/QNA/write")
+    public String write() {
+        return "QNA/write.tiles";
+    }
 
+    @PostMapping("/QNA/write")
+    public String writeok(QnA q) {
+        qsrv.newQnA(q);
+        return "redirect:/QNA/QnAlist";
+    }
+
+    @GetMapping("/QNA/view")
+    public ModelAndView view(ModelAndView mv, String qno) {
+        mv.setViewName("QNA/view.tiles");
+        mv.addObject("q", qsrv.readOneQnA(qno));
+        return mv;
+    }
 }
