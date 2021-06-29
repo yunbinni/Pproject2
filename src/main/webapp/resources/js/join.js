@@ -63,13 +63,14 @@ function sendEmail() {
             success : function (data) {
                 console.log(data.key);
                 keycode = data.key;
-            },error : function (e){
-                alert('오류가 발생하였습니다. 잠시 후에 다시 시도해주세요.');
+                alert('인증코드가 전송되었습니다. 메일을 확인해주세요.');
+            },error:function(request,status,error){
+                alert("code = "+ request.status + " message = " + request.responseText + " error = " + error); // 실패 시 처리
             }
         });
-        alert('인증코드가 전송되었습니다. 메일을 확인해주세요.');
+
         isCertification = true;
-    }else {
+    } else {
         alert('이메일 형식이 잘못되었습니다. 다시 알맞게 입력해주세요.');
     }
 
@@ -444,7 +445,6 @@ $('#htel3').change('blur', function () {
     }
 });
 
-
 window.onload = function onjuminE() {
 
     if ($('#jumin1').val() == '' && $('#jumin2').val() == '') {
@@ -469,8 +469,6 @@ window.onload = function onjuminE() {
     }
 
 }
-
-
 
 // joinme
 $('#joinokbtn').on('click', function () {
@@ -520,7 +518,6 @@ $('#joinokbtn').on('click', function () {
 
     }
 });
-
 
 // show zipcode
 $('#findzipbtn').on('click', function () {
@@ -584,9 +581,6 @@ $('#sendzip').on('click', function () {
     $('#zipmodal').modal('hide');
 
 });
-
-
-
 
 // check 정규식
 function isName(asName) {

@@ -21,12 +21,12 @@ $('#savebdbbtn').on('click', function () {
 });
 
 // search board
-$('#findbtn').on('click', function () {
-    if($('#findkey').val() == '') {
+$('#bfindbtn').on('click', function () {
+    if($('#bfindkey').val() == '') {
         alert('검색할 내용을 작성하세요!');
     } else {
-        let qry = '?findtype=' + $('#findtype').val();
-        qry += "&findkey=" + $('#findkey').val() + "&cp=1";
+        let qry = '?findtype=' + $('#bfindtype').val();
+        qry += "&findkey=" + $('#bfindkey').val() + "&cp=1";
         let url = '/board/find' + qry;
         location.href = url;
     }

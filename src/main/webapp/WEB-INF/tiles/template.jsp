@@ -22,72 +22,81 @@
     <title>템플릿 title</title>
 </head>
 <body>
-<div class="container">
-    <tiles:insertAttribute name="header" />
+    <div class="container">
+        <tiles:insertAttribute name="header" />
 
-    <tiles:insertAttribute name="main" />
+        <tiles:insertAttribute name="main" />
 
-    <tiles:insertAttribute name="footer" />
-</div>
+        <tiles:insertAttribute name="footer" />
+    </div>
 
-<!-- 로그인 폼 모달 -->
-<div class="modal" id="loginmodal" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>로그인</h3>
-                <button type="button" ig="lgmbtn"
-                        class="btn btn-light">닫기</button>
-            </div>
+    <!-- 로그인 폼 모달 -->
+    <div class="modal" id="loginmodal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>로그인</h3>
+                    <button type="button" ig="lgmbtn"
+                            class="btn btn-light">닫기</button>
+                </div>
 
-            <div class="modal-body">
-                <form name="loginfrm"
-                      id="loginfrm" method="post">
-                    <div class="form-group row text-danger">
-                        <label class="col-form-label col-4 text-right" for="userid">
-                            아이디</label>
-                        <input type="text"
-                               id="userid" name="userid"
-                               class="form-control col-5
-                                          border-danger">
-                    </div>
-                    <div class="form-group row text-danger">
-                        <label class="col-form-label col-4  text-right" for="passwd">
-                            비밀번호</label>
-                        <input type="password"
-                               id="passwd" name="passwd"
-                               class="form-control col-5 border-danger">
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-4"></div>
-                        <div class="form-check">
-                            <input type="checkbox"
-                                   class="form-check-input">
-                            <label class="form-check-label text-warning">
-                                로그인 상태 유지</label>
+                <div class="modal-body">
+                    <form name="loginfrm"
+                          id="loginfrm" method="post">
+                        <div class="form-group row text-danger">
+                            <label class="col-form-label col-4 text-right" for="userid">
+                                아이디</label>
+                            <input type="text"
+                                   id="userid" name="userid"
+                                   class="form-control col-5
+                                              border-danger">
                         </div>
-                    </div>
-                </form>
-            </div>
+                        <div class="form-group row text-danger">
+                            <label class="col-form-label col-4  text-right" for="passwd">
+                                비밀번호</label>
+                            <input type="password"
+                                   id="passwd" name="passwd"
+                                   class="form-control col-5 border-danger">
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4"></div>
+                            <div class="form-check">
+                                <input type="checkbox"
+                                       class="form-check-input">
+                                <label class="form-check-label text-warning">
+                                    로그인 상태 유지</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
-            <div class="modal-footer justify-content-center">
-                <button type="button" id="loginbtn"
-                        class="btn btn-danger">로그인</button>
-                <button type="button"
-                        class="btn btn-warning">
-                    아이디/비밀번호 찾기</button>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" id="loginbtn"
+                            class="btn btn-danger">로그인</button>
+                    <button type="button"
+                            class="btn btn-warning">
+                        아이디/비밀번호 찾기</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
-<!-- jQuery and Bootstrap Bundle (includes Popper) -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/fbefdbe8db.js" crossorigin="anonymous"></script>
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/fbefdbe8db.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript-->
+    <script src="/js/join.js"></script>
+    <script src="/js/loginout.js"></script>
+    <script src="/js/myinfo.js"></script>
+    <script src="/js/board.js"></script>
+    <script src="/js/Park.js"></script>
+    <script src="/js/QnA.js"></script>
+    <script src="/js/review.js"></script>
 
 
-</body>
+    </body>
 </html>

@@ -119,15 +119,15 @@
     <div class="row">
         <div class="col-5 offset-4">
             <div class="form-group row">
-                <select class="form-control col-3 border-primary" name="findtype" id="findtype">
+                <select class="form-control col-3 border-primary" name="bfindtype" id="bfindtype">
                     <option value="title">제목</option>
                     <option value="titcont">제목+내용</option>
                     <option value="userid">작성자</option>
                     <option value="contents">내용</option>
                 </select>&nbsp;
-                <input type="text" name="findkey" id="findkey"
+                <input type="text" name="bfindkey" id="bfindkey"
                        class="form-control col-5 border-primary" value="${param.findkey}">&nbsp;
-                <button type="button" id="findbtn" class="btn btn-primary">
+                <button type="button" id="bfindbtn" class="btn btn-primary">
                     <i class="fas fa-search"></i> 검색</button>
             </div>
         </div>

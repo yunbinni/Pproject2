@@ -33,5 +33,7 @@
         select * from joinMEM where userid = #{userid}
     </select>
 
-
+    <delete id="deleteMember" statementType="PREPARED" parameterType="String">
+        delete from joinMEM where userid = #{uid}
+    </delete>
 </mapper>

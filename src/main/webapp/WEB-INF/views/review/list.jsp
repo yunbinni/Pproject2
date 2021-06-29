@@ -38,7 +38,7 @@
 
     <div class="row">
 
-        <div class="offset-1">
+        <div class="offset-1 col-6">
             <div class="form-group row">
                 <select class="form-control col-3 row"
                     name="findloc" id="findloc">
@@ -68,9 +68,9 @@
             </div>
         </div> <!-- to search -->
 
-        <div class="col-6 text-right">
+        <div class="col d-flex justify-content-end">
             <button type="button" name="newrvbtn" id="newrvbtn"
-                    class="btn btn-sm btn-secondary"> 리뷰 작성</button>
+                    class="btn btn-sm btn-secondary">리뷰 작성</button>
         </div> <!-- write a new review -->
 
     </div> <!-- serching/write & buttons -->

@@ -11,4 +11,6 @@ public interface MemberDAO {
     int selectOneUserid(String uid);
     int selectLogin(Member m);
     Member selectOneMember(String userid);
+
+    int deleteMember(String uid);
 }

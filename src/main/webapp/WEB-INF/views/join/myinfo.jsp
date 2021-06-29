@@ -20,7 +20,7 @@
                             <label class="col-4 col-form-label text-primary text-right">
                                 아이디 </label>
                             <input type="text" class="border-primary form-control col-4"
-                                value="${sessionScope.userid}" readonly>
+                                value="${sessionScope.userid}" id="myid" readonly>
                         </div> <!-- 아이디 -->
 
                         <div class="form-group row">

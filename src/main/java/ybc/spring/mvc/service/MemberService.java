@@ -11,4 +11,5 @@ public interface MemberService {
     String checkUserid(String uid);
     boolean checkLogin(Member m, HttpSession sess);
     Member readOneMember(String userid);
+    void removeId(String uid);
 }

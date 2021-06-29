@@ -66,4 +66,9 @@ public class MemberServiceImpl implements MemberService{
     public Member readOneMember(String userid) {
         return mdao.selectOneMember(userid);
     }
+
+    @Override
+    public void removeId(String uid) {
+        if(mdao.deleteMember(uid) > 0) System.out.println("회원탈퇴완료");;
+    }
 }

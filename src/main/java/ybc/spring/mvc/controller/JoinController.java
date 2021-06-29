@@ -152,6 +152,10 @@ public class JoinController {
         return map;
     }
 
-
-
+    @GetMapping("/join/delid")
+    public String delid(String uid, HttpSession sess) {
+        msrv.removeId(uid);
+        sess.invalidate();  // 세션객체 제거
+        return "redirect:/";
+    }
 }

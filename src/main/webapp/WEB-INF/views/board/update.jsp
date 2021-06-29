@@ -49,24 +49,6 @@
             </div>
 
             <div class="form-group row">
-                <label for="file1"
-                       class="col-form-label col-2 text-right text-danger">
-                    파일첨부</label>
-                <div class="custom-file col-9">
-                    <input type="file" name="img" id="file1" class="custom-file-input">
-                    <label class="custom-file-label">첨부할 파일을 선택하세요</label>
-                </div>
-                <div class="custom-file col-9 offset-2">
-                    <input type="file" name="img" id="file2" class="custom-file-input">
-                    <label class="custom-file-label">첨부할 파일을 선택하세요</label>
-                </div>
-                <div class="custom-file col-9 offset-2">
-                    <input type="file" name="img" id="file3" class="custom-file-input">
-                    <label class="custom-file-label">첨부할 파일을 선택하세요</label>
-                </div>
-            </div>
-
-            <div class="form-group row">
                 <label class="col-form-label col-2 text-right text-danger">
                     자동입력방지</label>
                 <div class="g-recaptcha"

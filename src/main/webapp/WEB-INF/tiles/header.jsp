@@ -4,7 +4,7 @@
 <header class="row">
     <!-- 로고 이미지 -->
     <div class="col">
-        <img src="/img/logo.png" alt="로고 이미지입니다." />
+        <img src="/img/logo.png" alt="로고 이미지입니다." onclick="location.href='http://localhost:8080/'"/>
     </div>
 
     <!-- 로그인 / 로그아웃 버튼 !!! 후에 섹션 개체 생성 필요 -->

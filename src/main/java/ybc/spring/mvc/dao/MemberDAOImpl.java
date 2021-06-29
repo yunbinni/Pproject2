@@ -37,4 +37,9 @@ public class MemberDAOImpl implements MemberDAO {
     public Member selectOneMember(String userid) {
         return sqlSession.selectOne("member.selectOneMember", userid);
     }
+
+    @Override
+    public int deleteMember(String uid) {
+        return sqlSession.delete("member.deleteMember", uid);
+    }
 }
