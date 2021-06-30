@@ -62,7 +62,7 @@
                         <div>${fn:replace(rv.contents, newChar, "<br>")}</div>
 
                         <c:forEach var="f" items="${fnames}">
-                            <c:if test="${f ne '-'}">
+                            <c:if test="${f ne fn:trim('-')}">
                                 <c:set var="pos" value="${fn:indexOf(f,'.')}" />
                                 <c:set var="fname" value="${fn:substring(f,0,pos)}" />
                                 <c:set var="fext" value="${fn:substring(f,pos+1, fn:length(f))}" />
