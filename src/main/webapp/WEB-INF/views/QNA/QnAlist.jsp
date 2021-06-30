@@ -66,7 +66,7 @@ http://localhost:8080/board/find?findtype=title&findkey=빅데이터&cp=1 이 �
             <tbody>
             <!-- <span class="badge badge-danger">Hot</span> -->
             <tr class="text-danger bg-warning"><th>공지</th>
-                <th><i class="fas fa-question"></i>
+                <th><i class="fas fa-lock"></i>
                     주차장 민원사항
                 </th>
                 <th>운영자</th>

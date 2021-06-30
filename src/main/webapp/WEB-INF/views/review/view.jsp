@@ -9,7 +9,7 @@
 
 <c:set var="fnames" value="${fn:split(rv.fnames,'/')}" />
 <c:set var="fsizes" value="${fn:split(rv.fsizes,'/')}" />
-<c:set var="baseURL" value="http://localhost/cdn2/" />
+<c:set var="baseURL" value="http://localhost/cdn/" />
 
 <c:set var="newChar" value="
 " scope="application" /> <!-- enter key -->
@@ -62,8 +62,7 @@
                         <div>${fn:replace(rv.contents, newChar, "<br>")}</div>
 
                         <c:forEach var="f" items="${fnames}">
-
-                            <c:if test="${f ne '-' or f ne ''}">
+                            <c:if test="${f ne '-'}">
                                 <c:set var="pos" value="${fn:indexOf(f,'.')}" />
                                 <c:set var="fname" value="${fn:substring(f,0,pos)}" />
                                 <c:set var="fext" value="${fn:substring(f,pos+1, fn:length(f))}" />

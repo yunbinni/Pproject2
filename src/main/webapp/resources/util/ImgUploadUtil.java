@@ -13,7 +13,7 @@ import java.util.Date;
 public class ImgUploadUtil {
 
     // img path
-    private String uploadPath = "C:/Java/nginx-1.20.1/html/cdn/";
+    private String uploadPath = "C:/Java/nginx-1.20.1/html/cdn";
 
     // to know if img file exists
     public boolean checkImgFiles(MultipartFile[] img) {
@@ -61,7 +61,7 @@ public class ImgUploadUtil {
 
     // remove img
     public void delImg(Review rv) {
-        String fpath = "C:/Java/nginx-1.20.1/html/thumb/";
+        String fpath = "/usr/local/var/www/cdn2/";
 
         //System.out.println(">>" + rv.getFnames());
         String[] todie = rv.getFnames().split("[/]");
@@ -80,5 +80,8 @@ public class ImgUploadUtil {
                 f.delete();
             } catch (Exception e) { }
         }
+
     }
+
 }
+
