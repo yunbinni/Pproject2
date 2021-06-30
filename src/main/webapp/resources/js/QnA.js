@@ -21,7 +21,7 @@ $('#newQnAPagebtn').on('click', function () {
     location.href = '/QNA/QnAlist';
 });
 
-$("#savebdbbtn").on('click', function() {
+$("#qsavebdbbtn").on('click', function() {
     if ($('#title').val() == '') {
         alert('제목을 입력하세요!');
     } else if ($('#contents').val() == '') {

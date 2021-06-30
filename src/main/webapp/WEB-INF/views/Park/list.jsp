@@ -339,6 +339,7 @@
 <script src="/js/Park.js"></script>
 <script>
     var markers = []; var infowindows = [];
+
     <c:forEach var="p" items="${parks}">
     markers.push(new kakao.maps.Marker({
         position: new kakao.maps.LatLng(${p.lng}, ${p.lat})

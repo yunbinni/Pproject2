@@ -64,7 +64,7 @@
             <div class="form-group row">
                 <hr class="col-10">
                 <div class="col-12 text-center">
-                    <button type="button" class="btn btn-primary" id="savebdbbtn">
+                    <button type="button" class="btn btn-primary" id="qsavebdbbtn">
                         <i class="fas fa-check-circle"></i> 입력완료</button>
                     <button type="reset" class="btn btn-danger">
                         <i class="fas fa-times-circle"></i> 다시입력</button>
