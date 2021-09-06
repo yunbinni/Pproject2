@@ -22,6 +22,11 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 ### 1. 사이트 메뉴의 [회원가입] 버튼을 눌러, 약관 동의와 본인확인 절차, 개인정보 입력 절차를 거친다.
 ![join1](https://user-images.githubusercontent.com/59231602/130947017-d2cfca0a-4011-40f2-996f-b3ac575a37c4.png)
 
+### 2. 로그인을 한다.
+![login-1](https://user-images.githubusercontent.com/59231602/132198457-a7b64fb4-1166-40c9-9554-c2ae23377d1b.png)
+
+우측 상단에 로그인 상태를 확인할 수 있다.
+![login-2](https://user-images.githubusercontent.com/59231602/132198474-1de29f68-7317-4f40-a5a5-39d734b3705c.png)
 
 
 ### 2. [주차장찾기] 버튼을 눌러 원하는 조건으로 주차장을 검색한다.
@@ -38,6 +43,25 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 
 ### 3. [커뮤니티]에서 자유 게시판을 이용하거나, 주차장 관련 정보는 [리뷰]에서 공유한다.
 
+### [자유게시판] 부분 - 사람들과 다양한 대화를 하며, 댓글과 대댓글로 소통한다.
+![board-1](https://user-images.githubusercontent.com/59231602/132199396-47792cfa-294f-4404-a045-d2a3c78ee044.png)
+
+![board-2](https://user-images.githubusercontent.com/59231602/132199409-d61db8cb-6c75-4322-b9f3-87dfe95de854.png)
+
+![board-3](https://user-images.githubusercontent.com/59231602/132199421-36fae161-c9c1-4afe-ba7a-1b8775d50098.png)
+
+![board-4](https://user-images.githubusercontent.com/59231602/132199433-50a5d25f-2f86-44ab-8597-dbcb058e657d.png)
+
+
+### [리뷰] 부분 - 지역별로 검색하여 주차장에 대한 후기와 정보를 공유한다.
+
+![review-1](https://user-images.githubusercontent.com/59231602/132200196-8e34d81a-d136-47a0-a1a6-2b014cbc1c92.png)
+
+![review-2](https://user-images.githubusercontent.com/59231602/132200204-35e5a246-7d04-4fb4-900e-5af64acae0d6.png)
+
+### 4. [내 정보]를 확인한다.
+
+![myinfo](https://user-images.githubusercontent.com/59231602/132201111-899c4beb-f127-4854-b58d-bd7e51907268.png)
 
 <hr/>
 
