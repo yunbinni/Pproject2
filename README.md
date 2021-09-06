@@ -65,6 +65,11 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 
 <hr/>
 
+### 5. [문의사항]에서 [FAQ]의 답변 내용을 확인하고, [QNA]에서 관리자에게 직접 문의사항을 물어볼 수 있다.
+
+![FAQ](https://user-images.githubusercontent.com/59231602/132201754-354ba028-514e-487e-8006-da76e7b45895.png)
+
+![QNA](https://user-images.githubusercontent.com/59231602/132201770-d16014e7-0242-4bfb-99dc-0b42fa2e42d8.png)
 
 # Project Structure
 사용한 기술스택은 다음과 같습니다.
