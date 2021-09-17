@@ -18,6 +18,18 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 
 이에 따라 **전국에 있는** 주차장을 **원하는 조건에 맞게** 검색하고 저장하는 서비스가 필요하다 느껴 이 프로젝트를 진행했습니다.
 
+<hr />
+## 주요 기능
+
+### 1. 전국에 있는 주차장의 검색을 운영시간, 요일, 요일제여부, 결제방법 등에 따라 검색하고 지도에서 위치를 파악할 수 있습니다.
+
+### 2. 자유게시판 성격을 띄는 커뮤니티에서 소통할 수 있습니다.
+
+### 3. 지역별로 주차장에 대한 후기를 공유할 수 있습니다.
+
+
+<hr />
+
 ## 사용방법
 ### 1. 사이트 메뉴의 [회원가입] 버튼을 눌러, 약관 동의와 본인확인 절차, 개인정보 입력 절차를 거친다.
 ![join1](https://user-images.githubusercontent.com/59231602/130947017-d2cfca0a-4011-40f2-996f-b3ac575a37c4.png)
@@ -83,7 +95,7 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 > > Kakao Map API
 >
 > Back
-> > Spring MVC
+> > Spring (MVC)
 > > 
 > > JSP
 > 
@@ -98,20 +110,36 @@ Contributors에 **haneul-lim**님이 빠졌습니다.
 > > 
 > > Git (VCS, 협업)
 
-# 업무분담
-각 조원간의 업무분담 내용입니다.
-> 조윤빈(팀장)
-> > [주차장찾기] 구현 - 카카오맵 API를 활용한 지도서비스, 주소나 운영시간 등 다양한 조건을 활용한 검색,
-> >  메인 페이지 제작, 주차장과 회원 DB 구축
->
-> 신나라
-> > [리뷰] 구현 - 지역별, 조건별(예: 제목+내용 등) 리뷰 포스트 검색, 이미지 업로드
->
-> 양재묵
-> > [자유게시판] (커뮤니티) 구현 - 댓글, 대댓글, 게시글 CRUD, 추천순/조회순 게시글 조회
->
-> 임하늘
-> > [회원가입] 구현 - 이메일 인증을 이용한 본인인증, AJAX를 이용한 가입조건 필터링, [내 정보] 페이지
->
-> 조용희
-> > [FAQ/QNA] 구현 - 질문에 대한 답을 펼치기/접기로 구현, QNA 게시판 구현
+# 작업환경, WAS
+
+![spring](https://user-images.githubusercontent.com/59231602/133765683-d32c18ed-8da9-437d-bd9f-cdbb9ac84fee.png)
+
+![intellij](https://user-images.githubusercontent.com/59231602/133765845-21865e67-eb00-4ead-ae08-4e43c34e6d83.jpg)
+
+![apache tomcat](https://user-images.githubusercontent.com/59231602/133766010-f1a64479-e0da-42d8-bc7a-a94844e0e8ae.png)
+
+## 데이터베이스와 그 통신
+
+![aws rds](https://user-images.githubusercontent.com/59231602/133765956-77b16d7c-903a-4be5-92cf-0d6af7876d80.png)
+
+![mybatis](https://user-images.githubusercontent.com/59231602/133766160-25fc8f10-5180-4e82-8ca3-54c7ab0aa4ff.png)
+
+## 뷰
+
+![jsp](https://user-images.githubusercontent.com/59231602/133765747-fabfbee6-6e5b-409d-9611-80bc765ffc40.png)
+
+![jquery](https://user-images.githubusercontent.com/59231602/133765320-77f118af-7917-4fa1-b1cd-d58df6ca1a96.png)
+
+![bootstrap](https://user-images.githubusercontent.com/59231602/133765362-69fd6edf-a7ce-4495-b235-41de08ae091f.png)
+
+
+## 특수기능(회원가입 안내문구, 지도에서 찾기)
+
+![ajax](https://user-images.githubusercontent.com/59231602/133765490-5658000a-3dac-4d8d-87f3-1ea7935e2612.jpg)
+
+![kakao map api](https://user-images.githubusercontent.com/59231602/133765622-d83638bf-c2ee-4a24-8cee-a4c8714d4c21.jpg)
+
+
+## 버전관리, 협업 툴
+
+![github](https://user-images.githubusercontent.com/59231602/133766222-b8ef3039-c127-47f9-b532-ed786a5964a7.png)
